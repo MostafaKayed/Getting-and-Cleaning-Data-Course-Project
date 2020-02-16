@@ -1,4 +1,5 @@
 library(dplyr)
+setwd("D:\\Coursera\\data science NTL\\Getting and Cleaning Data")
 # read train data
 X_train <- read.table("./UCI HAR Dataset/train/X_train.txt")
 Y_train <- read.table("./UCI HAR Dataset/train/Y_train.txt")
